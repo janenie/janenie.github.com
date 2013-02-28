@@ -1,0 +1,100 @@
+body {
+	background: transparent;
+	background:#ece4d8;
+}
+
+.header {
+	height: 100px;
+	opacity: 0.8;
+	border-bottom: 1px solid white;
+	margin-top: 0px;
+	padding-top: 0px;
+	position: absolute;
+	margin-bottom: 20px;
+	width: 63%;
+}
+
+#title {
+	font-weight:bold;
+	border-top: 0px;
+	text-shadow: 0 1px 3px rgba(255,255,255,.4), 0 0 30px rgba(255,255,255,.075);
+	font-family:'Josefin Slab';
+	font-size: 60px;
+	padding-top: 0px;
+	line-height:  0px;
+	color: #7c334f;
+	display: inline;
+	clear: both;
+	top: 0px;
+	line-height: 20px;
+}
+.container {
+	position:relative;
+	width: 940px;
+	margin: 0 auto;
+	padding-top: 90px;
+}
+
+#img_btn {
+	position: relative;
+	top:17px;
+	width: 90px;
+	height: 80px;
+	z-index: 1000px;
+	display: inline;
+}
+
+/*.background2 {
+	background-image: url('http://24pullrequests.com/assets/header-snow-ffbb1418ddf30cf4d37909f1d4835983.png');
+	-webkit-animation: background_pic 10s normal infinite linear;
+}
+
+.background3 {
+	background-image: url('http://24pullrequests.com/assets/header-snow-ffbb1418ddf30cf4d37909f1d4835983.png');
+	-webkit-animation: background_pic 20s normal infinite linear;
+}*/
+.change {
+	cursor: pointer;
+}
+
+.animate {
+	position: absolute;
+	top: 0;
+	z-index: -1000;
+	width: 100%;
+	height: 600px;
+	background-repeat: repeat;
+	background-image: url('http://24pullrequests.com/assets/header-snow-ffbb1418ddf30cf4d37909f1d4835983.png');
+	-webkit-animation: move_pic 10s normal infinite linear;
+}
+
+.background {
+	background-image: url('http://24pullrequests.com/assets/header-snow-ffbb1418ddf30cf4d37909f1d4835983.png');
+	-webkit-animation: background_pic 5s normal infinite linear;
+}
+
+@-webkit-keyframes background_pic {
+	from {background-position-y: top; }
+	to {background-position-y: 600px; }
+}
+
+@-webkit-keyframes move_pic {
+	from {background-position-y: top; }
+	to {background-position-y: 600px; }
+}
+
+.word {
+	display: none;
+	font: lighter 45px pristina;
+}
+
+#message {
+	z-index: 1000;
+	width: 435px;
+	height: 560px;
+	position: absolute;
+	top: 245px;
+	left: 240px;
+	word-wrap: break-word;
+	word-break: normal;
+}
